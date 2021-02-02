@@ -1,0 +1,31 @@
+total = 0
+
+whileTrue: 
+   age = input("Please enter your age: ")
+   if len(age) == 0:
+       break
+    elif int(age) < 3:
+        pass
+    elif 3 <= int(age) <= 12:    
+            total += 10
+            else:   
+                 total += 15
+                 print(f"Your total is {total}")
+
+group = []
+
+whileTrue:  
+  age = input("Enter age: ")
+  if len(age) == 0:
+      break
+    if 16 <= int(age) <= 21:    
+            group.append(int(age))
+            print(group
+
+users = ['nava', 'rafael', 'maya', 'chava', 'nonny']
+
+for user in reversed (users):   
+     age = input(f'{user}, what is your age?')
+    if int(age) < 16:   
+             users.remove(user)
+             else :continueprint(users)

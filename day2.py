@@ -202,20 +202,25 @@
 # else:
 #   print("Finally finished!")
 
-movie_ticket = 0
+# movie_ticket = 0
 
-familly= ["lea", "alec", "arry"]
+# familly= ["lea", "alec", "arry"]
 
-for member in familly:
-    age_familly = int(input("how hols is", member))
+# age = int(imput("how old are you"))
+#     if age < 4  :
+#     print("lucky its free") 
+#     elif age >=3 and age < 12 :
+#     print("the ticket  is 10") 
+#     elif : 
+#     print("the ticket  is 15") 
 
+familly_list = []
 
-    if age <= 3 :
-    movie_ticket = "lucky its free"
-    elif age <= 12 :
-    movie_ticket = 10
-    elif age > 12 : 
-    movie_ticket = 15
+name_age  = input ("please input your name, your age. put a coma between name/age, then write exit: ")
 
+while name_age != "exit":
+    person_info = name_age.split (',')
+    familly_list.append(person_info)
+    new_age = input ("please input your name, your age. put a coma between name/age, then write exit: ")
 
-print(movie_ticket + member)
+print(familly_list)
